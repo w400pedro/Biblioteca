@@ -4,49 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<style type="text/css">
-table{
-    margin: 0 auto;
-    width: 98%;
-    
-}
-tr{
-    border: none;
-}
-.tds{
-    font-size: 1.8em;
-    border: 1px solid black;
-}
-.principal{
-    background-color: coral;
-}
-}
- #livros{
-    position:absolute;
-		left:8%;
-		top:2%;
-        margin-left:-110px;
-        text-decoration: none;
- }
- #logado{
-    position:absolute;
-		left:36%;
-		top:0%;
-		margin-left:-110px;
- }
- #logout{
-    position:absolute;
-		left:98%;
-		top:2%;
-        margin-left:-110px;
-        text-decoration: none;
-        
- }
- .none{
-     background-color: white;
- }
-</style>
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="CSS/biblioteca.css">
 </head>
 <body>
 
@@ -59,7 +19,7 @@ if(empty($_SESSION['nome'])){
 
 
 echo "<h2><a id=\"livros\" href=\"select.php\">Meus Livros</a></h2>"; sleep(1);
-echo "<br>";
+echo "<br><br><br>";
 echo "<form method=\"GET\" action=\"biblioteca.php\">";
 echo "<label for=\"filtro\">Filtro <input required name=\"parametro\" type=\"text\"></label>";
 echo "<button type=\"submit\">Filtrar</button>";

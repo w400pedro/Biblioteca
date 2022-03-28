@@ -1,0 +1,41 @@
+table{
+    margin: 0 auto;
+    width: 90%;
+    
+}
+tr{
+    border: none;
+}
+.tds{
+    background-color: coral;
+    font-size: 1.8em;
+    border: 1px solid
+}
+ #livros{
+    position:absolute;
+		left:8%;
+		top:2%;
+        margin-left:-110px;
+        text-decoration: none;
+ }
+ #naoalugado{
+ padding-left:500px; 
+ padding-top: 120px;
+ color: gray;
+ }
+ #logado{
+    position:absolute;
+		left:40%;
+		top:0%;
+		margin-left:-110px;
+ }
+ #logout{
+    position:absolute;
+		left:98%;
+		top:2%;
+        margin-left:-110px;
+        text-decoration: none;
+ }
+ .none{
+     background-color: white;
+ }
